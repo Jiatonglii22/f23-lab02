@@ -1,4 +1,12 @@
-function square(sideLen: number): Shape {
+import {Shape} 
+from './shape.js'
+
+interface Square extends Shape{
+    sideLen: number
+}
+
+
+function square(sideLen: number): Square {
     return {
         sideLen,
         computeArea: function (): number {
