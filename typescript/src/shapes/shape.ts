@@ -1,4 +1,5 @@
 interface Shape {
+    
     computeArea: () => number;
 }
 
