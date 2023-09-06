@@ -5,11 +5,11 @@ import edu.cmu.cs.cs214.lab02.shapes.*;
 public class Renderer {
     private Shape shape;
     
-    Renderer(Shape shape) {
+    public Renderer(Shape shape) {
         this.shape = shape;
     }
 
-    void draw() {
+    public void draw() {
         double area = shape.getArea();
 
         // assume implementation
